@@ -27,7 +27,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Rakuyama from './Rakuyama';
 import Akasaka from './Akasaka';
 
-import Button from './components/Button';
+import Button from './components/Button/Button';
 
 const Nishizawa = () => {
   return (

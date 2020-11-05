@@ -1,0 +1,10 @@
+.default {
+    font-size: large;
+    border-radius: 4;
+    border: "none";
+    padding: "5px 10px";
+    margin: "5px";
+    color: "#FFFFFF";
+    background: "#E74C3C";
+    font-weight: "bold";
+}
