@@ -1,17 +1,21 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
-const Akasaka = () => {
-  return (
-    <div>
-      Akasaka
-      <Link to="/pagetwo">
-        <button>
-          show Nishizawa when you click this!!
-        </button>
-      </Link>
-    </div>
-  );
+import Button from './components/Button/Button';
+import Navbar from './components/Navbar';
+
+class Akasaka extends React.Component {
+  render() {
+    return (
+      <>
+        <h1>This is Akasaka Page.</h1>
+        <Link to="/pagetwo">
+          <Button value="show Nisizawa"/>
+        </Link>
+        <Navbar/>
+      </>
+    );
+  }
 };
 
 export default Akasaka;
