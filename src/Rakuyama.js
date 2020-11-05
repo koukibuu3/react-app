@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Title from './components/Title';
@@ -33,7 +32,7 @@ class App extends Component {
             {this.state.version}
           </span>
         </Title>
-        Rakuyama
+        
         <Link to="/">
           <button>
             show Akasaka when you click this!!

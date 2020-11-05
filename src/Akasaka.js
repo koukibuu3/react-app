@@ -9,7 +9,7 @@ class Akasaka extends React.Component {
     return (
       <>
         <h1>This is Akasaka Page.</h1>
-        <Link to="/pagetwo">
+        <Link to="/nishizawa">
           <Button value="show Nisizawa"/>
         </Link>
         <Navbar/>
